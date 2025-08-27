@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  width: 1440px;
+  height: 3300px;
 }
 
 /* ===== Normalize ===== */
@@ -82,4 +84,53 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 21px; */
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-accent {
+  color: #2e2f42;
+}
+
+.nav-link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+}
+
+.nav-list {
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+}
+
+.hero-section {
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
+}
+
+.hero-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
