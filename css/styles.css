@@ -109,8 +109,20 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
+  color: #ffff;
+  text-align: center;
 
   line-height: 107%;
   letter-spacing: 0.02em;
-  color: #fff;
+}
+
+.hero-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
