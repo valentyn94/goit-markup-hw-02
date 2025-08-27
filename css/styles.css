@@ -2,6 +2,65 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* ===== Normalize ===== */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css");
+
+/* ===== Base styles ===== */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #2e2f42;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+/* ===== Typography reset ===== */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* ===== Lists reset ===== */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Buttons ===== */
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: background-color 250ms ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
+
+/* ===== Header contacts hover ===== */
+address a:hover,
+address a:focus {
+  color: #404bbf;
+}
+
+/* ===== Visually hidden ===== */
 .visually-hidden {
   position: absolute;
   width: 1px;
