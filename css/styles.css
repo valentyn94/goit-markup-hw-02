@@ -31,19 +31,18 @@ a {
 }
 
 /* ===== Buttons ===== */
-button {
-  cursor: pointer;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  border: none;
-  background-color: #4d5ae5;
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  background-color: #404bbf;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
   color: #ffffff;
-  transition: background-color 250ms ease;
 }
 
-button:hover,
-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -111,10 +110,29 @@ a {
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.phone {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ===== Hero Section ===== */
@@ -131,17 +149,6 @@ a {
 
   line-height: 107%;
   letter-spacing: 0.02em;
-}
-
-.hero-button {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
 }
 
 /* ===== Strategy Section ===== */
