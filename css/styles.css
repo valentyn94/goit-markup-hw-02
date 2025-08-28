@@ -71,6 +71,7 @@ a {
   color: inherit;
 }
 
+/* ===== Navigation Header ===== */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -87,8 +88,7 @@ a {
 }
 
 .logo-accent {
-  color: #2e2f42;
-  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
 }
 
 .nav-link {
@@ -101,6 +101,7 @@ a {
   color: #404bbf;
 }
 
+/* ===== Hero Section ===== */
 .hero-section {
   background: #2e2f42;
 }
@@ -125,4 +126,86 @@ a {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+/* ===== Strategy Section ===== */
+.strategy-card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.strategy-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Team Section ===== */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-card {
+  background-color: #ffffff;
+}
+
+.team-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Portfolio Section ===== */
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
